@@ -2,11 +2,6 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "root_domain_name" {
-  default = "robc.io"
-}
+variable "root_domain_name" {}
 
-variable "subdomain" {
-  default = "blog"
-}
 
